@@ -18,8 +18,8 @@
     - .fixed: depreciated. fixes both lighting and stroke.
     - .dynamic: depreciated. acts like .automatic, but scale of lighting and stroke may not be consistant for different sizes. it also could have broken details.
 
-- xoffset(-1.0 ~ 1.0): offset for lighting of sideways. negative for left, positive for right.
-- yoffset(-1.0 ~ 1.0): offset for lighting 
+- xoffset(-1.0 ~ 1.0): offset for lighting of x directions. negative for left, positive for right.
+- yoffset(-1.0 ~ 1.0): offset for lighting of y directions. negative for down, positive for up.
 
 - movementIntensity(> 1, default: 1.0): how much will lighting react for movements.
 - lightingIntensity_edge(> 1, default: 1.0): Intensity(or brightness) of edge lighting.
